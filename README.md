@@ -1,10 +1,12 @@
 What does the app have?
+
 app has three APIs 
     credential/create 
     credential/validate
     credential/reset
 
 How to run the app?
+
 Clone the app
 cd to logon-flow folder
 Run npm install
