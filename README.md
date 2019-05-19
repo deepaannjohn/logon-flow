@@ -1,18 +1,19 @@
 What does the app have?
-
-app has three APIs 
+-----------------------------
+App has three APIs 
     credential/create 
     credential/validate
     credential/reset
 
 How to run the app?
+-----------------------
+1. Clone the app
+2. cd to logon-flow folder
+3. Run npm install
+4. Run npm start
 
-Clone the app
-cd to logon-flow folder
-Run npm install
-Run npm start
-
-Run the following in mysql:
+mysql setup:
+-----------------------
 host    : "localhost",
 user    : "deepa",
 password: "ubuntu",
@@ -30,10 +31,12 @@ Table structure:
 
 
 How to test?
+------------------------------
 examples for APIs
 http://localhost:3001/credential/create?emailId=dajx@abc.com&password=deepa1982&repeatPassword=deepa1982
 http://localhost:3001/credential/validate?emailId=dajx@abc.com&password=deepa1982
 http://localhost:3001/credential/reset?emailId=dajx@abc.com
 
 How to test unit cases using jasmine?
+--------------------------------------
 npm test
