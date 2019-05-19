@@ -24,11 +24,10 @@ Table structure:
 ----------------------
 
 emailId        | varchar(255) | NO   | PRI | NULL              
---------------------------------------------------------
- password       | char(25)     | NO   |     | NULL             
- ----------------------------------------------------------
- last_logged_in | timestamp    | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP 
- ----------------------------------------------------------------------------------------
+
+password       | char(25)     | NO   |     | NULL             
+
+last_logged_in | timestamp    | NO   |     | CURRENT_TIMESTAMP | on update CURRENT_TIMESTAMP 
 
 
 
