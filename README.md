@@ -42,3 +42,4 @@ http://localhost:3001/credential/reset?emailId=dajx@abc.com
 How to test unit cases using jasmine?
 --------------------------------------
 npm test
+---------------
